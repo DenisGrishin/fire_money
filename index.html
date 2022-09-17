@@ -6,9 +6,9 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220916225242">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220917115925">
+	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -16,461 +16,725 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<div class="header__bg-ibg"><img src="img/header/bg.jpg" alt="" /></div>
-				<div class="header__body">
-					<div class="header__top">
-						<a class="header__logo" href=""><img src=" img/header/Logo.svg" alt="" /></a>
-						<div class="header__info block-info-header">
-							<div class="block-info-header__time-work _icon-access_time">
-								BOARDING HOURS Mon - Sat: 7:00 am - 6:00 pm
+				<a href="" class="header__logo">Fire<strong>Money</strong></a>
+				<div class="header__menu menu">
+					<nav class="menu__nav">
+						<ul class="menu__list menu">
+							<li class="menu__item">
+								<a href="" class="menu__link">Почему мы?</a>
+							</li>
+							<li class="menu__item">
+								<a href="" class="menu__link">О сервисе</a>
+							</li>
+							<li class="menu__item">
+								<a href="" class="menu__link">Вопросы-ответы</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<a href="header__link-login" class="header__button button">входа в <span>личный</span> кабинет</a>
+				<div class="header__box-icon"><button type="button" class="header__icon icon-menu"><span></span></button></div>
+			</div>
+
+		</header>
+		<main class="page">
+			<!-- start-section -->
+			<section class="page__start-section start-section">
+				<div class="start-section__bg"></div>
+				<div class="start-section__container">
+					<div class="start-section__left-column column-left">
+						<div class="column-left__sub-title">
+							<span>Горячие предложения</span>
+						</div>
+						<h1 class="column-left__title">быстрых займов по всей России!</h1>
+						<p class="column-left__text">
+							Без проверки кредитной истории. От 1 000 ₽ за 15 минут.
+						</p>
+						<p class="column-left__attention-text">
+							Внимание! Услуга обработки заявки платная и составляет от 98 ₽
+							до 398 ₽ раз в неделю
+						</p>
+					</div>
+					<div class="start-section__center-column">
+						<img src="img/main/start-section/girl.png" alt="Быстрые займы, девушка" />
+					</div>
+					<div class="start-section__right-column column-right">
+						<div class="column-right__box">
+							<form action="#" class="column-right__form form-sum">
+								<div class="form-sum__range-box">
+									<label for="#" class="form-sum__range-label">Cумма кредита</label>
+									<div class="form-sum__box-slider">
+										<div class="form-sum__wrapper">
+											<custom-slider min="1000" max="100000" value="1000"></custom-slider>
+										</div>
+									</div>
+									<div class="form-sum__min-max">
+										<span>1 000 ₽ </span><span>100 000 ₽ </span>
+									</div>
+								</div>
+								<div class="form-sum__range-box">
+									<label for="#" class="form-sum__range-label">Cрок кредита</label>
+									<div class="form-sum__box-slider">
+										<div class="form-sum__wrapper">
+											<custom-slider-days min="3" max="30" value="0"></custom-slider-days>
+										</div>
+									</div>
+									<div class="form-sum__min-max">
+										<span>3 </span><span>30 </span>
+									</div>
+								</div>
+								<button type="submit" class="button_form-sum form-sum__btn button">
+									Оформить заявку
+								</button>
+							</form>
+							<div class="column-right__items info-box">
+								<div class="info-box__item">
+									<div class="info-box__title">Вы берете</div>
+									<div class="info-box__text">20 000 ₽</div>
+								</div>
+								<div class="info-box__item">
+									<div class="info-box__title">К возврату</div>
+									<div class="info-box__text">25 650 ₽</div>
+								</div>
+								<div class="info-box__item">
+									<div class="info-box__title">Дата возврата</div>
+									<div class="info-box__text">08 января 2022</div>
+								</div>
+								<div class="info-box__item">
+									<div class="info-box__title">Ежемесячный платеж</div>
+									<div class="info-box__text">5 650 ₽</div>
+								</div>
 							</div>
-							<div class="block-info-header__tel _icon-place">
-								CALL US (555) Pup-Cares
-							</div>
-							<button data-popup="#popup" href="#" class="block-info-header__btn button">
-								Make an Appointment
-							</button>
 						</div>
 					</div>
-					<div class="header__menu menu">
-						<nav class="menu__body">
-							<ul class="menu__list">
-
-
-								<li class="menu__item">
-									<a class="menu__link" href="">Specials</a>
-								</li>
-								<li class="menu__item">
-									<a class="menu__link" href="">Facilities</a>
-								</li>
-								<li class="menu__item">
-									<a class="menu__link" href="">Reviews</a>
-								</li>
-
-								<li class="menu__item"><a class="menu__link" href="">About</a></li>
-							</ul>
-							<div class="menu__serach-block">
-								<form action="#" class="menu__form-serch">
-									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="menu__input" />
-								</form>
-								<button class="menu__search-btn _icon-search"></button>
-
-								<button type="button" class="menu__icon icon-menu">
-									<span></span>
-								</button>
+				</div>
+			</section>
+			<!--  best-offers-->
+			<section class="page__best-offers best-offers">
+				<div class="best-offers__container">
+					<h2 class="best-offers__title title">Лучшие предложения</h2>
+					<div class="best-offers__items lvl-offer">
+						<div class="lvl-offer__item">
+							<div class="lvl-offer__line-lvl lvl-offer__line-lvl_yellow">
+								<span>lite</span>
 							</div>
-						</nav>
+							<h4 class="lvl-offer__title lvl-offer__title_yellow">
+								<span>15 000 ₽</span> на <span>7</span> дней
+							</h4>
+							<div class="lvl-offer__return _icon-calendar">
+								Дата возврата: <span>12 января 2022</span>
+							</div>
+							<div class="lvl-offer__return _icon-rub">
+								К возврату: <span>45 500 ₽</span>
+							</div>
+						</div>
+						<div class="lvl-offer__item">
+							<div class="lvl-offer__line-lvl lvl-offer__line-lvl_orange">
+								<span>basic</span>
+							</div>
+							<h4 class="lvl-offer__title lvl-offer__title_orange">
+								<span>15 000 ₽</span> на <span>7</span> дней
+							</h4>
+							<div class="lvl-offer__return _icon-calendar">
+								Дата возврата: <span>12 января 2022</span>
+							</div>
+							<div class="lvl-offer__return _icon-rub">
+								К возврату: <span>45 500 ₽</span>
+							</div>
+						</div>
+						<div class="lvl-offer__item">
+							<div class="lvl-offer__line-lvl lvl-offer__line-lvl_red">
+								<span>pro</span>
+							</div>
+							<h4 class="lvl-offer__title lvl-offer__title_red">
+								<span>15 000 ₽</span> на <span>7</span> дней
+							</h4>
+							<div class="lvl-offer__return _icon-calendar">
+								Дата возврата: <span>12 января 2022</span>
+							</div>
+							<div class="lvl-offer__return _icon-rub">
+								К возврату: <span>45 500 ₽</span>
+							</div>
+						</div>
 					</div>
-					<div class="header__title">
-						<h1 class="_anim-items">Premier dog boarding, daycare & day spa</h1>
-						<button data-popup="#popup" href="#" class="header__btn button _anim-items">
-							Make an Appointment
+					<p class="best-offers__text-notes">
+						* Расчёт не является публичное офертой и может отличаться от
+						реальной ставки кредитора
+					</p>
+				</div>
+			</section>
+			<!-- get-money -->
+			<section class="page__get-money get-money">
+				<div class="get-money__container">
+					<h2 class="get-money__title title">Как получить деньги</h2>
+					<div class="get-money__items money-get">
+						<div class="money-get__item">
+							<div class="money-get__icon _icon-01 money-get__icon_progress"></div>
+							<span class="money-get__lvl money-get__lvl_progress">1</span>
+							<p class="money-get__text">Выберите сумму займа</p>
+						</div>
+						<div class="money-get__item">
+							<div class="money-get__icon _icon-02"></div>
+							<span class="money-get__lvl">2</span>
+							<p class="money-get__text">Заполните анкету</p>
+						</div>
+						<div class="money-get__item">
+							<div class="money-get__icon _icon-03"></div>
+							<span class="money-get__lvl">3</span>
+							<p class="money-get__text">Дождитесь рассмотрения заявки</p>
+						</div>
+						<div class="money-get__item">
+							<div class="money-get__icon _icon-04"></div>
+							<span class="money-get__lvl">4</span>
+							<p class="money-get__text">
+								Получите деньги любым удобным способом
+							</p>
+						</div>
+						<div class="money-get__progres"></div>
+					</div>
+					<button type="button" class="get-money__btn button button_form-sum">
+						Оформить заявку
+					</button>
+				</div>
+			</section>
+			<!-- How to get -->
+			<section class="page__how-to-get how-get">
+				<div class="how-get__container">
+					<h2 class="how-get__title title">Как получить деньги</h2>
+					<p class="how-get__text">На карту QIWI Yandex Деньги Наличные</p>
+					<div class="how-get__items">
+						<div class="how-get__img">
+							<img src="img/how-to-get/01.png" alt="Яндекс деньги" />
+						</div>
+						<div class="how-get__img">
+							<img src="img/how-to-get/02.png" alt="QIWI" />
+						</div>
+						<div class="how-get__img">
+							<img src="img/how-to-get/03.png" alt="VISA" />
+						</div>
+						<div class="how-get__img">
+							<img src="img/how-to-get/04.png" alt="Master Card" />
+						</div>
+						<div class="how-get__img">
+							<img src="img/how-to-get/05.png" alt="Наличные" />
+						</div>
+					</div>
+					<button type="submit" class="how-get__btn button button_form-sum">
+						Оформить заявку
+					</button>
+				</div>
+			</section>
+			<!-- choose us -->
+			<section class="page__choose-us choose-us">
+				<div class="choose-us__container">
+					<h2 class="choose-us__title title">Почему выбирают нас</h2>
+					<div class="choose-us__items column-card">
+						<div class="column-card__item">
+							<div class="column-card__img">
+								<img src="img/main/choose-us/avatar-01.jpg" alt="Avatar" />
+							</div>
+							<h4 class="column-card__title">Екатерина Романова, 26 лет</h4>
+							<div class="column-card__locatin _icon-location">г. Москва</div>
+							<p class="column-card__text">
+								Для того, чтобы воспользоваться услугой, вам необходимо лишь
+								заполнить анкету на сайте, все остальное сервис сделает за
+								вас, сэкономив вам большое количество времени и сил. Наш
+								сервис работает со всеми клиентами, нам не важно, какая у вас
+								кредитная история и имеются ли текущие просрочки.
+							</p>
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating" />
+										<input type="radio" class="rating__item" value="2" name="rating" />
+										<input type="radio" class="rating__item" value="3" name="rating" />
+										<input type="radio" class="rating__item" value="4" name="rating" />
+										<input type="radio" class="rating__item" value="5" name="rating" />
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+						</div>
+						<div class="column-card__item column-card__item_hidden-block-mobile">
+							<div class="column-card__img">
+								<img src="img/main/choose-us/avatar-02.jpg" alt="Avatar" />
+							</div>
+							<h4 class="column-card__title">Екатерина Романова, 26 лет</h4>
+							<div class="column-card__locatin _icon-location">г. Москва</div>
+							<p class="column-card__text">
+								Для того, чтобы воспользоваться услугой, вам необходимо лишь
+								заполнить анкету на сайте, все остальное сервис сделает за
+								вас, сэкономив вам большое количество времени и сил. Наш
+								сервис работает со всеми клиентами, нам не важно, какая у вас
+								кредитная история и имеются ли текущие просрочки.
+							</p>
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating" />
+										<input type="radio" class="rating__item" value="2" name="rating" />
+										<input type="radio" class="rating__item" value="3" name="rating" />
+										<input type="radio" class="rating__item" value="4" name="rating" />
+										<input type="radio" class="rating__item" value="5" name="rating" />
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+						</div>
+						<div class="column-card__item column-card__item_hidden-block-table">
+							<div class="column-card__img">
+								<img src="img/main/choose-us/avatar-03.jpg" alt="Avatar" />
+							</div>
+							<h4 class="column-card__title">Екатерина Романова, 26 лет</h4>
+							<div class="column-card__locatin _icon-location">г. Москва</div>
+							<p class="column-card__text">
+								Для того, чтобы воспользоваться услугой, вам необходимо лишь
+								заполнить анкету на сайте, все остальное сервис сделает за
+								вас, сэкономив вам большое количество времени и сил. Наш
+								сервис работает со всеми клиентами, нам не важно, какая у вас
+								кредитная история и имеются ли текущие просрочки.
+							</p>
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating" />
+										<input type="radio" class="rating__item" value="2" name="rating" />
+										<input type="radio" class="rating__item" value="3" name="rating" />
+										<input type="radio" class="rating__item" value="4" name="rating" />
+										<input type="radio" class="rating__item" value="5" name="rating" />
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+						</div>
+						<div class="column-card__item column-card__item_hidden-block">
+							<div class="column-card__img">
+								<img src="img/main/choose-us/avatar-03.jpg" alt="Avatar" />
+							</div>
+							<h4 class="column-card__title">Екатерина Романова, 26 лет</h4>
+							<div class="column-card__locatin _icon-location">г. Москва</div>
+							<p class="column-card__text">
+								Для того, чтобы воспользоваться услугой, вам необходимо лишь
+								заполнить анкету на сайте, все остальное сервис сделает за
+								вас, сэкономив вам большое количество времени и сил. Наш
+								сервис работает со всеми клиентами, нам не важно, какая у вас
+								кредитная история и имеются ли текущие просрочки.
+							</p>
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating" />
+										<input type="radio" class="rating__item" value="2" name="rating" />
+										<input type="radio" class="rating__item" value="3" name="rating" />
+										<input type="radio" class="rating__item" value="4" name="rating" />
+										<input type="radio" class="rating__item" value="5" name="rating" />
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+						</div>
+						<div class="column-card__item column-card__item_hidden-block">
+							<div class="column-card__img">
+								<img src="img/main/choose-us/avatar-03.jpg" alt="Avatar" />
+							</div>
+							<h4 class="column-card__title">Екатерина Романова, 26 лет</h4>
+							<div class="column-card__locatin _icon-location">г. Москва</div>
+							<p class="column-card__text">
+								Для того, чтобы воспользоваться услугой, вам необходимо лишь
+								заполнить анкету на сайте, все остальное сервис сделает за
+								вас, сэкономив вам большое количество времени и сил. Наш
+								сервис работает со всеми клиентами, нам не важно, какая у вас
+								кредитная история и имеются ли текущие просрочки.
+							</p>
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating" />
+										<input type="radio" class="rating__item" value="2" name="rating" />
+										<input type="radio" class="rating__item" value="3" name="rating" />
+										<input type="radio" class="rating__item" value="4" name="rating" />
+										<input type="radio" class="rating__item" value="5" name="rating" />
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+						</div>
+						<div class="column-card__item column-card__item_hidden-block">
+							<div class="column-card__img">
+								<img src="img/main/choose-us/avatar-03.jpg" alt="Avatar" />
+							</div>
+							<h4 class="column-card__title">Екатерина Романова, 26 лет</h4>
+							<div class="column-card__locatin _icon-location">г. Москва</div>
+							<p class="column-card__text">
+								Для того, чтобы воспользоваться услугой, вам необходимо лишь
+								заполнить анкету на сайте, все остальное сервис сделает за
+								вас, сэкономив вам большое количество времени и сил. Наш
+								сервис работает со всеми клиентами, нам не важно, какая у вас
+								кредитная история и имеются ли текущие просрочки.
+							</p>
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating" />
+										<input type="radio" class="rating__item" value="2" name="rating" />
+										<input type="radio" class="rating__item" value="3" name="rating" />
+										<input type="radio" class="rating__item" value="4" name="rating" />
+										<input type="radio" class="rating__item" value="5" name="rating" />
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+						</div>
+					</div>
+					<div class="choose-us__box-btn">
+						<button type="button" class="choose-us__btn button button_form-sum">
+							Оформить заявку
+						</button>
+
+						<button type="button" class="choose-us__btn-all-comments">
+							Все отзывы
 						</button>
 					</div>
 				</div>
-			</div>
-		</header>
-		<main class="page">
+			</section>
+			<!-- our clients -->
+			<section class="page__our-clients our-clients">
+				<div class="our-clients__bg">
+					<img src="img/main/our-clients/bg.jpg" alt="" />
+				</div>
+				<div class="our-clients__container">
+					<h2 class="our-clients__title title title_white">Наши клиенты</h2>
+					<div class="our-clients__items client">
+						<div class="client__item _icon-cross_big">
+							<div class="client__body">
+								<div class="client__title">Екатерина Романова</div>
+								<div class="client__status">Получила отказ 45 сек назад</div>
+								<div class="client__location _icon-location">г. Москва</div>
+							</div>
+						</div>
+						<div class="client__item _icon-cross_big">
+							<div class="client__body">
+								<div class="client__title">Игорь Николаев</div>
+								<div class="client__status">Получила отказ 45 сек назад</div>
+								<div class="client__location _icon-location">г. Москва</div>
+							</div>
+						</div>
+						<div class="client__item _icon-arrow_down">
+							<div class="client__body">
+								<div class="client__title">Светлана Борисовна</div>
+								<div class="client__status">
+									Внес на счет 12 000 ₽ 45 сек назад
+								</div>
+								<div class="client__location _icon-location">г. Москва</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- About the service -->
+			<section class="page__about-service about-service">
+				<div class="about-service__container">
+					<h2 class="about-service__title title">О сервисе</h2>
+					<div class="about-service__items column-info-about">
+						<div class="column-info-about__item">
+							<h4 class="column-info-about__title">
+								Все возможные риски и убытки, и условия выдачи кредитов.
+							</h4>
+							<p class="column-info-about__text">
+								о вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы В случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</p>
+							<p class="column-info-about__text">
+								Ваша заявка будет отправляться в МФО с наибольшей вероятностью
+								одобрения в данный момент времени с соблюдением необходимых
+								пауз между отправками. При предварительном одобрении кредитные
+								организации сами связываются с вами, и вам необходимо лишь
+								подтвердить свое согласие на займ и забрать деньги. Список
+								МФО, в которые была отправлена ваша заявка, и другую
+								необходимую информацию о работе в рамках платной услуги вы
+								можете наблюдать в личном кабинете, в разделе Отчеты Стоимость
+								услуги всего 1499 рублей. Для вашего удобства оплата услуги
+								происходит в рассрочку: четыре платежа по 374.8 рублей каждые
+								пять дней. Оплачивая услугу, вы получаете доступ к
+								функциональности сервиса сроком на 1 год (365 дней) с момента
+								активации услуги.
+							</p>
+							<p class="column-info-about__text">
+								Если вы получили займ и более не нуждаетесь в услугах сервиса
+								- вы можете остановить обработку вашей заявки самостоятельно и
+								в любое время в разделе Отписаться от услуг.
+							</p>
+						</div>
+						<div class="column-info-about__item">
+							<h4 class="column-info-about__title">
+								Что будет при просрочке
+							</h4>
+							<p class="column-info-about__text">
+								о вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы В случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</p>
+							<p class="column-info-about__text">
+								Ваша заявка будет отправляться в МФО с наибольшей вероятностью
+								одобрения в данный момент времени с соблюдением необходимых
+								пауз между отправками. При предварительном одобрении кредитные
+								организации сами связываются с вами, и вам необходимо лишь
+								подтвердить свое согласие на займ и забрать деньги. Список
+								МФО, в которые была отправлена ваша заявка, и другую
+								необходимую информацию о работе в рамках платной услуги вы
+								можете наблюдать в личном кабинете, в разделе Отчеты Стоимость
+								услуги всего 1499 рублей. Для вашего удобства оплата услуги
+								происходит в рассрочку: четыре платежа по 374.8 рублей каждые
+								пять дней. Оплачивая услугу, вы получаете доступ к
+								функциональности сервиса сроком на 1 год (365 дней) с момента
+								активации услуги.
+							</p>
+							<p class="column-info-about__text">
+								Если вы получили займ и более не нуждаетесь в услугах сервиса
+								- вы можете остановить обработку вашей заявки самостоятельно и
+								в любое время в разделе Отписаться от услуг.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- FAQ -->
+			<section class="page__faq faq">
+				<div class="faq__container">
+					<h2 class="faq__title title">Вопросы-ответы</h2>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								Как долго обрабатывается заявка?
+							</button>
+							<div class="spollers__body">
+								Вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы в случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								Как погасить полученный займ?
+							</button>
+							<div class="spollers__body">
+								Вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы в случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								Как получить деньги?
+							</button>
+							<div class="spollers__body">
+								Вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы в случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								География сервиса?
+							</button>
+							<div class="spollers__body">
+								Вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы в случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								Как остановить обработку заявки?
+							</button>
+							<div class="spollers__body">
+								Вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы в случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								Какова стоимость услуги?
+							</button>
+							<div class="spollers__body">
+								Вашим анкетным данным сервис автоматически выбирает наиболее
+								выгодные предложения и работает непосредственно с кредитными
+								организациями, предоставляющими микрозаймы в случае
+								приобретения платной услуги, вы получаете полный доступ к
+								функциональности сервиса сроком на 1 год с момента активации
+								услуги!
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- last section -->
+			<section class="page__last-section last-section">
+				<div class="last-section__container">
+					<div class="last-section__box">
+						<h2 class="last-section__title title">
+							Получи деньги здесь и сейчас
+						</h2>
+						<ul class="last-section__list">
+							<li class="last-section__item">Без проверки кредитной истории.</li>
+							<li class="last-section__item"> От 1 000 ₽ за 15 минут.</li>
+						</ul>
 
-			<section class="page__who-we-are who-we-are">
-				<div class="who-we-are__container">
-					<div class="who-we-are__body">
-						<div class="who-we-are__header block-header">
-							<div class="block-header__sub-title block-header__sub-title_white _icon-decor_title ">Who we are
-							</div>
-							<h2 class="block-header__title block-header__title_white _anim-items">Nemo enim ipsam voluptatem
-								quia voluptas
-								in proident</h2>
-						</div>
-						<div class="who-we-are__content">
-							<p class="who-we-are__text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-								suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure
-								reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
-								dolorem eum fugiat quo voluptas nulla pariatur.</p>
-							<div class="who-we-are__img-ibg"><img src="img/whoweare/dog.jpg" alt="dog"></div>
-						</div>
+						<button type="button" class="last-section__btn button button_form-sum">
+							Оформить заявку
+						</button>
+					</div>
+					<div class="last-section__img">
+						<img src="img/main/last-section/01.png" alt="Получи деньги здесь и сейчас">
 					</div>
 				</div>
 			</section>
-			<section class="page__promise promise">
-				<div class="promise__container">
-					<div class="promise__header block-header">
-						<div class="block-header__sub-title _icon-decor_title">OUR PROMISE TO YOU</div>
-						<h2 class="block-header__title _anim-items">Sed perspiciatis omnis iste natus</h2>
-					</div>
-					<div class="promise__items block-item">
-						<div class="block-item__column">
-							<div class="block-item__img"><img src="img/promise/doglove24x.svg" alt="doglove"></div>
-							<div class="block-item__body">
-								<div class="block-item__title">24/7 Love & Care</div>
-								<div class="block-item__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-									blanditiis praesentium corrupti quos dolores et quas.</div>
-							</div>
-						</div>
-						<div class="block-item__column">
-							<div class="block-item__img"><img src="img/promise/dogvet24x.svg" alt="Veterinarian"></div>
-							<div class="block-item__body">
-								<div class="block-item__title">On-site Veterinarian</div>
-								<div class="block-item__text">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-									sed quia non numquam eius modi tempora incidunt.</div>
-							</div>
-						</div>
-						<div class="block-item__column">
-							<div class="block-item__img"><img src="img/promise/dogstream24x.svg" alt="Livestream"></div>
-							<div class="block-item__body">
-								<div class="block-item__title">Live-stream Cameras</div>
-								<div class="block-item__text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-									esse quam nihil molestiae consequatur illum.</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__tenis tenis">
-				<div class="tenis__container">
-					<div class="tenis__img"><img src="img/tenis/dog.png" alt="dog"></div>
-					<div class="tenis__title block-logo ">
-						<h1 class="block-logo__title _anim-items">Nemo enim ipsam voluptatem quia voluptas in
-							proident</h1>
-						<button href="#" data-popup="#popup" class="block-logo__btn button _anim-items">Make an
-							Appointment</button>
-					</div>
-				</div>
-			</section>
-			<section class="page__services services">
-				<div class="services__container">
-					<div class="services__header block-header">
-						<div class="block-header__sub-title  _icon-decor_title">Our Services
-						</div>
-						<h2 class="block-header__title _anim-items">Sed perspiciatis omnis iste natus</h2>
-					</div>
-					<div class="services__items item-block">
-						<div class="item-block__section">
-							<div class="item-block__card">
-								<div class="item-block__img"> <img src="img/service/dogboarding24x.png" alt="boarding"></div>
-								<div class="item-block__body">
-									<div class="item-block__title">Pet Boarding (No Cages)</div>
-									<div class="item-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-										blanditiis praesentium corrupti quos dolores et quas.</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-block__section">
-							<div class="item-block__card">
-								<div class="item-block__img"> <img src="img/service/dogdaycare24x.png" alt="daycare"></div>
-								<div class="item-block__body">
-									<div class="item-block__title">Pet Boarding (No Cages)</div>
-									<div class="item-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-										blanditiis praesentium corrupti quos dolores et quas.</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-block__section">
-							<div class="item-block__card">
-								<div class="item-block__img"> <img src="img/service/doggrooming24x.png" alt="grooming"></div>
-								<div class="item-block__body">
-									<div class="item-block__title">Pet Boarding (No Cages)</div>
-									<div class="item-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-										blanditiis praesentium corrupti quos dolores et quas.</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-block__section">
-							<div class="item-block__card">
-								<div class="item-block__img"> <img src="img/service/dogfood24x.png" alt="food"></div>
-								<div class="item-block__body">
-									<div class="item-block__title">Custom Meal Plans</div>
-									<div class="item-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-										blanditiis praesentium corrupti quos dolores et quas.</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-block__section">
-							<div class="item-block__card">
-								<div class="item-block__img"> <img src="img/service/dogtraining24x.png" alt="training"></div>
-								<div class="item-block__body">
-									<div class="item-block__title">Custom Meal Plans</div>
-									<div class="item-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-										blanditiis praesentium corrupti quos dolores et quas.</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-block__section">
-							<div class="item-block__card">
-								<div class="item-block__img"> <img src="img/service/dogcollar24x.png" alt="collar"></div>
-								<div class="item-block__body">
-									<div class="item-block__title">Shop Our Store!</div>
-									<div class="item-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-										blanditiis praesentium corrupti quos dolores et quas.</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__appointment appointment">
-				<div class="appointment__container">
-					<div class="appointment__bg-ibg"><img src="img/appointment/bg.png" alt="bg"></div>
-					<div class="appointment__column-form">
-						<form action="#" class="appointment__form block-form">
-							<h3 class="block-form__title">Make an appointment</h3>
-							<div class="block-form__body">
-								<div class="block-form__items">
-									<div class="block-form__item">
-										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Name" class="block-form__input">
-									</div>
-									<div class="block-form__item">
-										<input data-required="email" autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email" class="block-form__input">
-									</div>
-									<div class="block-form__item">
-										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Phone Number" data-tel-input class="block-form__input">
-									</div>
-									<div class="block-form__item">
-										<select name="form[]" class="block-form__select">
-											<option value="1" selected>Select Service</option>
-											<option value="2">Select Service</option>
-											<option value="3">Select Service</option>
-											<option value="4">Select Service</option>
-										</select>
-									</div>
-								</div>
-								<textarea wrap class="block-form__textarea" placeholder="Tell us about your puppers include his/her name" name="form" id=""></textarea>
-								<button type="submit" class="block-form__btn button">Make an Appointment</button>
-							</div>
-						</form>
-					</div>
-					<div class="appointment__info   block-info _anim-items">
-						<div class="block-info__title">Maxime placeat facere possimus omnis </div>
-						<div class="block-info__number">5,700+</div>
-						<div class="block-info__text">customers served</div>
-					</div>
-
-				</div>
-			</section>
-			<section class="page__gallery gallery">
-				<div class="gallery__container">
-					<div class="gallery__section">
-						<div class="gallery__header block-header">
-							<div class="block-header__sub-title block-header__sub-title_white  _icon-decor_title">GALLERY &
-								LIVE STREAMS
-							</div>
-							<h2 class="block-header__title block-header__title_white _anim-items">Check out our hard workers
-							</h2>
-						</div>
-						<div class="gallery__body">
-							<div data-tabs class="gallery__tabs tabs">
-								<nav data-tabs-titles class="tabs__navigation">
-									<button type="submit" class="tabs__title _tab-active">Gallery</button>
-									<button type="submit" class="tabs__title">Live stream: Yard 1</button>
-									<button type="submit" class="tabs__title">Live stream: Yard 2</button>
-									<button type="submit" class="tabs__title">Live stream: Yard 3</button>
-								</nav>
-								<div data-tabs-body class="tabs__content">
-									<div class="tabs__body">
-										<div class="tabs__img-ibg"><img src="img/gallery/01.jpg" alt="dog"></div>
-									</div>
-									<div class="tabs__body">
-										<div class="tabs__img-ibg"><img src="img/gallery/02.jpg" alt="dog"></div>
-									</div>
-									<div class="tabs__body">
-										<div class="tabs__img-ibg"><img src="img/gallery/01.jpg" alt="dog"></div>
-									</div>
-									<div class="tabs__body">
-										<div class="tabs__img-ibg"><img src="img/gallery/02.jpg" alt="dog"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__customers customers">
-				<div class="customers__container">
-					<div class="customers__header block-header">
-						<div class="block-header__sub-title  _icon-decor_title">Our CUSTOMERS
-						</div>
-						<h2 class="block-header__title _anim-items">Illum qui dolorem eum quo voluptas ut distinctio</h2>
-					</div>
-					<div class="customers__body block-person">
-						<div class="block-person__column">
-							<div class=" block-person__body">
-								<div class="block-person__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam,
-									quis ea exercitation ullamco cillum ut enim dolore.”</div>
-								<div class="block-person__user ">
-									<div class="block-person__img"><img src="img/customers/userimg01.jpg" alt="userimg"></div>
-									<div class="block-person__name">Cullen Bohannon</div>
-								</div>
-							</div>
-						</div>
-						<div class="block-person__column">
-							<div class="block-person__body">
-								<div class="block-person__text">“Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-									accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-									veritatis et quasi ipsam voluptatem aspernatur.”</div>
-								<div class="block-person__user ">
-									<div class="block-person__img"><img src="img/customers/userimg02.jpg" alt="userimg"></div>
-									<div class="block-person__name">Jennifer Thomas</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</section>
-			<section class="page__impact impact">
-				<div class="impact__container">
-					<div class="impact__top">
-						<div class="impact__header block-header">
-							<div class="block-header__sub-title block-header__sub-title_white  _icon-decor_title">OUR IMPACT
-							</div>
-							<h2 class="block-header__title block-header__title_white _anim-items">Nemo enim ipsam voluptatem
-								quia voluptas
-							</h2>
-						</div>
-						<div class="impact_img"><img src="img/impact/dog.jpg" alt="dog"></div>
-					</div>
-					<div class="impact__body item-impact">
-						<div class="item-impact__box">
-							<div class="item-impact__column">
-								<div class="item-impact__pict"><img src="img/impact/01.png" alt="duck"></div>
-								<div class="item-impact__body">
-									<div class="item-impact__title">3,700</div>
-									<div class="item-impact__text">puppy baths</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-impact__box">
-							<div class="item-impact__column">
-								<div class="item-impact__pict"><img src="img/impact/02.png" alt="dogsboarded"></div>
-								<div class="item-impact__body">
-									<div class="item-impact__title">4,500</div>
-									<div class="item-impact__text">dogs boarded</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-impact__box">
-							<div class="item-impact__column">
-								<div class="item-impact__pict"><img src="img/impact/03.png" alt="pupstrained"></div>
-								<div class="item-impact__body">
-									<div class="item-impact__title">2,900</div>
-									<div class="item-impact__text">pups trained</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-impact__box ">
-							<div class="item-impact__column">
-								<div class="item-impact__pict"><img src="img/impact/04.png" alt="mealsserved"></div>
-								<div class="item-impact__body">
-									<div class="item-impact__title">12k+</div>
-									<div class="item-impact__text">meals served</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
 		</main>
+
 		<footer class="footer">
+			<div class="footer__bg"></div>
 			<div class="footer__container">
-				<div class="footer__row row-top">
-					<h3 class="row-top__title">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
-					<div class="row-top__btn"><button data-popup="#popup" href="#" class=" button">Make an Appointment</button>
+
+				<div class="footer__top top-footer">
+					<a href="" class="top-footer__logo">Fire<strong>Money</strong></a>
+					<nav class="top-footer__nav">
+						<ul class="list-footer-nav">
+							<li class="list-footer-nav__item"><a href="" class="list-footer__link">Почему мы?
+								</a></li>
+							<li class="list-footer-nav__item"><a href="" class="list-footer__link">О сервисе</a></li>
+							<li class="list-footer-nav__item"><a href="" class="list-footer__link">Вопросы-ответы</a></li>
+						</ul>
+					</nav>
+					<div class="top-footer__contacts contacts-footer ">
+						<a href="mailto:Kustohelp@gmail.com" class="contacts-footer__email _icon-mail">Kustohelp@gmail.com</a>
+						<a href="tel:8 800 808-00-80" class="contacts-footer__phone _icon-phone">8 800 808-00-80</a>
 					</div>
 				</div>
-				<div class="footer__body item-footer">
-					<div class="item-footer__columns">
-						<div class="item-footer__column info-block">
-							<div class="info-block__body">
-								<a href="" class="info-block__logo"><img src="img/footer/LogoFooter.png" alt=""></a>
-								<div class="info-block__text">This is a blurb about the company sed do eiusmod tempor incididunt ut
-									labore et dolore ex magna aliqua. </div>
-								<div class="info-block__social social-item">
-									<a href="" class="social-item__link _icon-facebook"></a>
-									<a href="" class="social-item__link _icon-twitter"></a>
-									<a href="" class="social-item__link _icon-instagram"></a>
-									<a href="" class="social-item__link _icon-youtube"></a>
-								</div>
-							</div>
+				<div class="footer__list-cred list-cred-footer">
+					<h3 class="list-cred-footer__title title-footer">Список кредиторов</h3>
+					<ul class="list-cred-footer__list list-footer">
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+						<li class="list-cred-footer__item">ООО "МКК СК22ОРФИН", 3441101, г. Ростsов-на-Дdaону, ул. Поadadртовая, д.
+							, оф.
+							302454, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день
+						</li>
+					</ul>
+				</div>
+				<div class="footer__cards-accept cards-accept-footer">
+					<div class="cards-accept-footer__row-left">
+						<h3 class="cards-accept-footer__titel title-footer">Какие карты
+							принимаем</h3>
+						<div class="cards-accept-footer__card">
+							<img src="img/footer/yandex.png" alt="Yandex Money">
+							<img src="img/footer/mastercard.png" alt="master card">
+							<img src="img/footer/mir.png" alt="Мир">
 						</div>
+					</div>
+					<div class="cards-accept-footer__text">
+						Мы явлемся обработчиками <span>персональных данных</span>
+					</div>
+				</div>
+				<div class="footer__agreements-conditions agreements-conditions-footer">
+					<h3 class="agreements-conditions-footer__titel title-footer">Соглашения и условия</h3>
+					<p class="agreements-conditions-footer__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+						accusantium voluptatibus quos beatae. Inventore, commodi sapiente fuga itaque nobis hic, omnis corporis
+						dolorum maxime laboriosam dicta error laudantium iure. Similique pariatur adipisci porro quam neque sit,
+						dolore totam ex culpa nemo nam repudiandae recusandae facilis distinctio enim! Nemo delectus eos maiores?
+						Dolorum, cum totam corrupti voluptatem a tempore sunt quia!</p>
+					<p class="agreements-conditions-footer__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+						accusantium voluptatibus quos beatae. Inventore, commodi sapiente fuga itaque nobis hic, omnis corporis
+						dolorum maxime laboriosam dicta error laudantium iure. Similique pariatur adipisci porro quam neque sit,
+						dolore totam ex culpa nemo nam repudiandae recusandae facilis distinctio enim! Nemo delectus eos maiores?
+						Dolorum, cum totam corrupti voluptatem a tempore sunt quia!</p>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__copy _icon-uniE900">Imoneys Сredit ©2015–2022 Все права на сайт защищены.</div>
+					<div class="bottom-footer__social-box">
+						<button type="button" class=" bottom-footer__button">отписаться</button>
+						<div class="bottom-footer__icon-social">
+							<a href="" class="_icon-youtube"></ф>
+								<a href="" class="bottom-footer__center-icon _icon-insta"></a>
+								<a href="" class="_icon-facebook"></a>
 
-						<div data-spollers="768,max" class="item-footer__column spollers menu-footer">
-							<div class="menu-footer__body spollers__item">
-								<button type="button" data-spoller class="menu-footer__title spollers__title">EXPLORE LINKS</button>
-								<div class="menu-footer__nav spollers__body">
-									<div class="menu-footer__lists">
-										<ul class="menu-footer__list spollers__body">
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">About</a></li>
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">Services</a></li>
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">Specials</a></li>
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">Estimates</a></li>
-										</ul>
-										<ul class="menu-footer__list">
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">Reviews</a></li>
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">Shop</a></li>
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">Careers</a></li>
-											<li class="menu-footer__item"><a href="" class="menu-footer__link">FAQs</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div data-spollers="768,max" class="item-footer__column contacnt spollers">
-							<div class="contacnt__body spollers__item">
-								<button type="button" data-spoller class="contacnt__title spollers__title">CONTACT</button>
-								<ul class="contacnt__list spollers__body">
-									<li class="contacnt__item _icon-place">321 Pikes Place Parkway
-										Seattle, WA 54321</li>
-									<li class="contacnt__item _icon-smartphone"><a href="tel:(555) 765-4321">(555) 765-4321</a></li>
-									<li class="contacnt__item _icon-email"><a href="mailto:Info@company.com">Info@company.com</a></li>
-									<li class="contacnt__item _icon-timer">Mon - Sat: 7:000 am - 6:00 pm</li>
-								</ul>
-							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="footer__row row-bottom">
-				<div class="row-bottom__container">
-					<div class="row-bottom__text">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</div>
-					<div class="row-bottom__copy"><span>© 2018 Company.</span> Privacy Policy | Terms & Conditions</div>
-				</div>
-			</div>
-			<div data-spollers class="spollers">
 			</div>
 		</footer>
 	</div>
-	<div id="popup" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<form action="#" class="popup__form form-popup">
-					<div class="form-popup__body">
-						<button data-close type="button" class="form-popup__close"> </button>
-						<h2 class="form-popup__title">Make an appointment</h2>
-						<div class="form-popup__items">
-							<div class="form-popup__item">
-								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Name" class="form-popup__input">
-							</div>
-							<div class="form-popup__item">
-								<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email" class="form-popup__input">
-							</div>
-							<div class="form-popup__item">
-								<input autocomplete="off" type="tel" data-tel-input name="form[]" data-error="Ошибка" placeholder="Phone Number" class="form-popup__input">
-							</div>
-							<div class="form-popup__item">
-								<textarea autocomplete="off" name="form[]" placeholder="Tell us about your puppers include his/her name" data-error="Ошибка" class="form-popup__input form-popup__textarea"></textarea>
-							</div>
-						</div>
-						<button class="form-popup__btn button">Make an Appointment</button>
-					</div>
-				</form>
 
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220916225242"></script>
+</div>
+ -->
+	<script src="js/app.min.js?_v=20220917115925"></script>
 </body>
 
 </html>
